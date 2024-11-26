@@ -41,7 +41,9 @@ Uses conditional jumps to implement actions (start/stop motor, trigger alarm).
 
 To compile the code
 nasm -f elf32 -o task1.o task1.asm
+
 creating an exutable
 ld -m elf_i386 -o task1 task1.o
+
 running the program
 ./task1
